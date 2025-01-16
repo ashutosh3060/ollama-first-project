@@ -5,3 +5,13 @@ Benefits: To check quickly in your local machine, which all open source models w
 
 Basic command to run a LLM model:
 ollama run llama3.2
+
+Create your own model with Ollama:
+Ollama supports importing GGUF models in the Modelfile: GGUF(GPT-generated unified format)
+Below is the code example
+1. Create a file named Modelfile, with a FROM instruction with the local filepath to the model you want to import.
+    FROM ./vicuna-33b.Q4_0.gguf
+2. Create the model in Ollama
+    ollama create example -f Modelfile
+3. Run the model
+    ollama run example
