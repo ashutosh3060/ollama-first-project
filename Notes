@@ -15,3 +15,12 @@ Below is the code example
     ollama create example -f Modelfile
 3. Run the model
     ollama run example
+
+Importing Open Source models to Ollama
+https://www.youtube.com/watch?v=fnvZJU5Fj3Q&t=138s
+https://www.youtube.com/watch?v=wHRwx30AwtE
+
+Top 3 tasks here with the learning
+1. Create your own model
+2. Access your created model in Jupyter notebook
+3. Create a Gradio Interface for input and LLM results
