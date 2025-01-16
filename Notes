@@ -1,0 +1,7 @@
+# Notes:
+
+Ollama : Ollama is a tool designed to simplify the process of running open-source large language models (LLMs) directly on your computer.
+Benefits: To check quickly in your local machine, which all open source models work well for our own usecase.
+
+Basic command to run a LLM model:
+ollama run llama3.2
